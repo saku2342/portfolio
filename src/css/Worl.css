@@ -1,0 +1,119 @@
+.work-section{
+    background-color: #121818;
+    padding: 100px 10px;
+    color: #fff;
+    text-align: center;
+}
+
+
+.sviet-section,.alliance-section,.odiitify-section,.zsork-section,.ikptu-section{
+    background: linear-gradient(
+    rgba(18, 24, 24, 1.2),
+    rgba(18, 24, 24, 0.2)),
+    url('../assests/sviet.webp') ;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 100px 20px;
+    color: #ffffff;
+    width: 30%;
+    margin: 20px 10px;
+    text-align: center; /* Center align text within the section */
+ 
+
+}
+.link-container {
+    text-align: center; /* Center align text within the container */
+}
+.alliance-section{
+    background: linear-gradient(
+        rgba(18, 24, 24, 1.2),
+        rgba(18, 24, 24, 0.2)),
+        url('../assests/allianceee.png') ;
+        background-position: left;
+
+}
+.odiitify-section{
+    background: linear-gradient(
+        rgba(18, 24, 24, 1.2),
+        rgba(18, 24, 24, 0.2)),
+        url('../assests/godigitify_logo.jpeg') ;
+
+}
+.zsork-section{
+    background: linear-gradient(
+        rgba(18, 24, 24, 1.2),
+        rgba(18, 24, 24, 0.2)),
+        url('../assests/flyer33.jpg') ;
+
+}
+.ikptu-section{
+    background: linear-gradient(
+        rgba(18, 24, 24, 1.2),
+        rgba(18, 24, 24, 0.2)),
+        url('../assests/lapata.png') ;
+        background-position: right;
+
+}
+.linkkk{
+    color: #fff;
+    font-size: 26px;
+    font-weight: 500;
+ 
+    /* margin: 0px 53px; */
+    text-decoration: none;
+
+}
+.work-primary{
+    position: relative;
+    display: inline-block;
+    margin-bottom: 42px;
+    font-size: 34px;
+}
+.work-primary::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px; /* Adjust this value to move the line up or down */
+    width: 100%;
+    height: 2px; /* Adjust this value for line thickness */
+    background-color: #544A82;
+}
+.footer{
+    background-color: #fff;
+    padding: 20px 0;
+    align-items: center;
+    text-align: center;
+    color: #111;
+}
+.footer p{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+/* Adjust width for large screens */
+@media (min-width: 992px) {
+    .sviet-section, .alliance-section, .odiitify-section, .zsork-section, .ikptu-section {
+      width: 30%;
+      margin: 20px 10px;
+    }
+  }
+  
+  /* Adjust width for screens smaller than a tablet */
+  @media (max-width: 768px) {
+    .sviet-section, .alliance-section, .odiitify-section, .zsork-section, .ikptu-section {
+      width: 90%;
+      margin: 20px auto; /* Center align the sections */
+    }
+  }
+  
+  /* For extra small devices (phones, 576px and down) */
+  @media (max-width: 576px) {
+    .sviet-section, .alliance-section, .odiitify-section, .zsork-section, .ikptu-section {
+      padding: 50px 10px; /* Adjust padding as needed */
+      width: 100%;
+      margin: 10px auto; /* Center align the sections */
+    }
+}
